@@ -60,6 +60,7 @@ var Countdown = React.createClass({
                 return <CountdownForm onSetCountdown={this.handleSetCountdown}/>;
             }
         };
+
         return (
             <div >
                 <h1 className="page-title">Countdown</h1>
